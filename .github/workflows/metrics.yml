@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.SECRET_ARUN_PROFILIE }}
           user: Arun-projectdumps
@@ -42,9 +42,3 @@ jobs:
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_topics_limit: 0
-
-          # Achievements (fills the slot PageSpeed/Music use in the example)
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          plugin_achievements_limit: 8
