@@ -14,6 +14,11 @@
   <img src="./metrics.svg" alt="GitHub metrics" width="100%">
 </p>
 
+<p align="center">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Arun-projectdumps&theme=github_dark&utc_offset=5.5" alt="Commits by time of day">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Arun-projectdumps&theme=github_dark" alt="Repos per language">
+</p>
+
 ## 🛠️ Tech I work with
 
 <p>

@@ -24,13 +24,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Coding habits: commits per hour / per day + language activity
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 30
-          plugin_habits_trim: yes
 
           # Most used languages bar
           plugin_languages: yes
