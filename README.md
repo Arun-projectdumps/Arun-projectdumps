@@ -51,7 +51,6 @@
 | [**attendance-mangmnet-system**](https://github.com/Arun-projectdumps/attendance-mangmnet-system) | Attendance management system | Java · HTML |
 | [**Dsa**](https://github.com/Arun-projectdumps/Dsa) | Everything I wrote while learning DSA from the beginning | C++ |
 | [**Leetcode-Problems-daily**](https://github.com/Arun-projectdumps/Leetcode-Problems-daily) | Daily LeetCode solutions, synced with LeetHub | C++ · Java |
-| [**html-portfolio**](https://github.com/Arun-projectdumps/html-portfolio) | My portfolio site | HTML |
 
 ## 📊 Stats
 
