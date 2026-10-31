@@ -9,7 +9,7 @@ PROJECTS = [
     ("ultron", "macOS (Apple Silicon) app: a real zsh terminal in a cinematic UI for launching Claude Code", "Tauri 2 · React · TypeScript · Rust · xterm.js"),
     ("Claude-skills-", "A collection of useful Claude skills you can add to your own setup", "Claude · Markdown"),
     ("attendance-mangmnet-system", "Attendance management system", "Java · HTML"),
-    ("Leetcode-Problems-daily", "Daily LeetCode solutions, synced with LeetHub", "C++ · Java"),
+    ("Leetcode_Problems..", "72 LeetCode problems solved and synced with LeetHub: strings, arrays, binary search and more", "C++ · Java"),
 ]
 
 STACK = [
@@ -52,7 +52,7 @@ def footer():
 if __name__ == "__main__":
     os.makedirs(os.path.join(OUT, "projects"), exist_ok=True)
     for p in PROJECTS:
-        open(os.path.join(OUT, "projects", f"{p[0]}.svg"), "w").write(card(*p))
+        open(os.path.join(OUT, "projects", ("leetcode-problems" if p[0] == "Leetcode_Problems.." else p[0]) + ".svg"), "w").write(card(*p))
     open(os.path.join(OUT, "stack.svg"), "w").write(stack())
     open(os.path.join(OUT, "footer.svg"), "w").write(footer())
     print("ok")
