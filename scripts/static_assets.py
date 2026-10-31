@@ -8,9 +8,7 @@ OUT = os.path.join(os.path.dirname(__file__), "..", "assets")
 PROJECTS = [
     ("ultron", "macOS (Apple Silicon) app: a real zsh terminal in a cinematic UI for launching Claude Code", "Tauri 2 · React · TypeScript · Rust · xterm.js"),
     ("Claude-skills-", "A collection of useful Claude skills you can add to your own setup", "Claude · Markdown"),
-    ("CodeCampus-Register", "Registration app for CodeCampus", "Java · JavaScript · HTML · CSS"),
     ("attendance-mangmnet-system", "Attendance management system", "Java · HTML"),
-    ("Dsa", "Everything I wrote while learning DSA from the beginning", "C++"),
     ("Leetcode-Problems-daily", "Daily LeetCode solutions, synced with LeetHub", "C++ · Java"),
 ]
 

@@ -11,10 +11,7 @@
   <a href="https://github.com/Arun-projectdumps/ultron"><img src="./assets/projects/ultron.svg" width="49%" alt="ultron"></a>
   <a href="https://github.com/Arun-projectdumps/Claude-skills-"><img src="./assets/projects/Claude-skills-.svg" width="49%" alt="Claude-skills-"></a>
   <br>
-  <a href="https://github.com/Arun-projectdumps/CodeCampus-Register"><img src="./assets/projects/CodeCampus-Register.svg" width="49%" alt="CodeCampus-Register"></a>
   <a href="https://github.com/Arun-projectdumps/attendance-mangmnet-system"><img src="./assets/projects/attendance-mangmnet-system.svg" width="49%" alt="attendance-mangmnet-system"></a>
-  <br>
-  <a href="https://github.com/Arun-projectdumps/Dsa"><img src="./assets/projects/Dsa.svg" width="49%" alt="Dsa"></a>
   <a href="https://github.com/Arun-projectdumps/Leetcode-Problems-daily"><img src="./assets/projects/Leetcode-Problems-daily.svg" width="49%" alt="Leetcode-Problems-daily"></a>
 </p>
 
