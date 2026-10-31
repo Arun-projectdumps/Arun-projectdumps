@@ -111,7 +111,7 @@ def contrib_svg(u):
         for d in w["contributionDays"]:
             date = dt.date.fromisoformat(d["date"])
             c = d["contributionCount"]
-            lvl = 0 if c == 0 else min(4, 1 + int(3 * c / mx))
+            lvl = 0 if c == 0 else min(4, 1 + int(3.99 * (c / mx) ** 0.5))
             out.append(f'<rect x="{x0 + wi*(cell+gap)}" y="{y0 + ((date.weekday()+1) % 7)*(cell+gap)}" width="{cell}" height="{cell}" fill="{shades[lvl]}"/>')
             if date.day <= 7 and date.month != last_month and (date.weekday() + 1) % 7 == 0:
                 last_month = date.month
