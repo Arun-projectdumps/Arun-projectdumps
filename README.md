@@ -55,6 +55,6 @@
 ## 📊 Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Arun-projectdumps&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Arun-projectdumps&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide=stars,prs,issues" alt="GitHub stats">
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Arun-projectdumps&theme=github-dark-blue&hide_border=true" alt="GitHub streak">
 </p>

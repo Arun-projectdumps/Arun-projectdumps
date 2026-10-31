@@ -16,9 +16,15 @@ jobs:
           user: Arun-projectdumps
           filename: metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, repositories, metadata
           config_timezone: Asia/Kolkata
           config_display: large
+
+          # Hide repository stats that are zero (keeps Packages)
+          extras_js: |
+            document.querySelectorAll('.field').forEach(f => {
+              if (/^0 (Sponsors|Stargazers|Forkers|Watchers)$/.test(f.textContent.trim())) f.remove()
+            })
 
           # 3D contributions calendar + streak / commits per day
           plugin_isocalendar: yes
@@ -30,8 +36,3 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_details: percentage
           plugin_languages_ignored: batchfile, shell
-
-          # Mastered technologies and topics (icons)
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_limit: 0
